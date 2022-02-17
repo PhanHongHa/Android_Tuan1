@@ -8,14 +8,11 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="403dp"
-        android:layout_height="769dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginLeft="4dp"
-        android:scaleType="fitCenter"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="430dp"
+        android:layout_height="740dp"
         app:srcCompat="@drawable/background"
-        tools:layout_editor_absoluteY="-19dp" />
+        tools:layout_editor_absoluteX="-10dp"
+        tools:layout_editor_absoluteY="-15dp" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -32,6 +29,7 @@
         android:id="@+id/textView"
         android:layout_width="287dp"
         android:layout_height="127dp"
+        android:layout_marginBottom="380dp"
         android:fontFamily="@font/chonburi"
         android:gravity="center"
         android:text="GROW YOUR BUSINESS"
@@ -40,10 +38,8 @@
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.451"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.441" />
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
@@ -59,20 +55,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.923" />
+        app:layout_constraintVertical_bias="0.788" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
-        android:layout_marginLeft="76dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
         android:text="LOGIN"
         app:backgroundTint="#673AB7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.777" />
+        app:layout_constraintVertical_bias="0.746" />
 
     <Button
         android:id="@+id/button2"
@@ -84,23 +80,23 @@
         app:backgroundTint="#673AB7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.716"
         app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.777" />
+        app:layout_constraintVertical_bias="0.746" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
         android:fontFamily="@font/chonburi"
         android:text="HOW WE WORK?"
         android:textColor="#3C1243"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.46"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.909" />
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
